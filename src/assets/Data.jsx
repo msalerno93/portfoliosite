@@ -19,7 +19,7 @@ export const socials = [
         LinkedIn <FaLinkedin size={35} />
       </>
     ),
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/michael-salerno-tech/",
     style: "rounded-tr-md",
   },
   {
@@ -29,7 +29,7 @@ export const socials = [
         GitHub <FaGithub size={35} />
       </>
     ),
-    href: "https://github.com/theyashpatel",
+    href: "https://github.com/msalerno93",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ export const socials = [
         Mail <HiOutlineMail size={35} />
       </>
     ),
-    href: "mailto:foo@gmail.com",
+    href: "mailto:salerno.softwareengineering@gmail.com",
   },
   {
     id: 4,
