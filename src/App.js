@@ -1,8 +1,11 @@
+import NavBar from './components/NavBar';
 import './index.css'
 
 function App() {
   return (
-    <div className='text-4xl font-bold'>Hello there</div>
+    <div>
+      <NavBar />
+    </div>
   );
 }
 
