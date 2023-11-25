@@ -2,6 +2,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
+
+
+// NAVIGATION LINKS REACT SMOOTH SCROLL - USED IN NAVBAR //
 export const navLinks = [
   { id: 1, name: "Home", link: "home" },
   { id: 2, name: "About", link: "about" },
@@ -11,6 +14,7 @@ export const navLinks = [
 ];
 
 
+// SOCIAL LINKS/ICONS USED UNDER SOCIALS COMPONENT // 
 export const socials = [
   {
     id: 1,
@@ -50,5 +54,16 @@ export const socials = [
     href: "/resume.pdf",
     style: "rounded-br-md",
     download: true,
+  },
+]
+
+export const about = [
+  {
+    id: 1,
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quidem? Maxime omnis sapiente pariatur nostrum, eius rerum animi ipsam eligendi temporibus fugit odit. Laborum numquam quisquam tenetur esse provident minima ad fugiat. Nihil quas assumenda atque quidem magnam ipsum earum debitis dignissimos optio dolores deserunt eveniet perspiciatis, a odit ullam.",
+  },
+  {
+    id: 2,
+    info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quidem? Maxime omnis sapiente pariatur nostrum, eius rerum animi ipsam eligendi temporibus fugit odit. Laborum numquam quisquam tenetur esse provident minima ad fugiat. Nihil quas assumenda atque quidem magnam ipsum earum debitis dignissimos optio dolores deserunt eveniet perspiciatis, a odit ullam.",
   },
 ]
