@@ -1,9 +1,45 @@
-import React from 'react'
+import { projects } from "../assets/Data";
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
-  )
-}
+    <div
+      name="portfolio"
+      className="bg-gradient-to-b from-gray-900 to-gray-700 w-full pb-10 text-gray-300 md:h-screen"
+    >
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-5xl font-bold inline border-b-4 px-3 border-gray-500">
+            Portfolio
+          </p>
+          <p className="pt-8 pb-4">Check out some of my work</p>
+        </div>
 
-export default Portfolio
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+          {projects.map(({ id, src, demo, code }) => (
+            <div key={id} className="shadow-md shadow-gray-900 rounded-lg">
+              <img
+                src={src}
+                alt=""
+                className="rounded-md duration-200 hover:scale-110"
+              />
+              <div className="flex items-center justify-center">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110">
+                  <a href={demo} target="_blank" rel="noreferrer">
+                    Demo
+                  </a>
+                </button>
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110">
+                  <a href={code} target="_blank" rel="noreferrer">
+                    Code
+                  </a>
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Portfolio;
