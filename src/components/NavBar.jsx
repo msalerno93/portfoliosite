@@ -20,7 +20,7 @@ const NavBar = () => {
               key={id}
               className="px-4 cursor-pointer capitalize font-medium text-2xl text-gray-300 hover:scale-110 duration-200"
             >
-              {name}
+              <Link to={link} smooth duration={500}>{name}</Link>
             </li>
           );
         })}

@@ -22,7 +22,7 @@ const Home = () => {
           </p>
 
           <div>
-            <Link to="portfolio">
+            <Link to="portfolio" smooth duration={500}>
             <button className="group text-gray-300 text-2xl w-fit px-3 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-600 to-blue-600 hover:scale-110 duration-200">
               Portfolio
               <span className="group-hover:rotate-90 duration-300 text-4xl">

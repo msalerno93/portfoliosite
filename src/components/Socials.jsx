@@ -5,7 +5,7 @@ const Socials = () => {
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul className="pl-1">
-        {socials.map(({ id, child, href, style, download }) => (
+        {socials.map(({ id, child, href, style, download, color }) => (
           <li
             key={id}
             className={
@@ -16,7 +16,7 @@ const Socials = () => {
           >
             <a
               href={href}
-              className="flex justify-between items-center w-full font-bold text-xl text-gray-300"
+              className="flex justify-between items-center w-full font-bold text-xl text-gray-300 hover:text-gray-500"
               download={download}
               target="_blank"
               rel="noreferrer"
