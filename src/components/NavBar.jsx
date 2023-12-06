@@ -45,7 +45,7 @@ const NavBar = () => {
                 smooth
                 duration={500}
               >
-                {name}
+                <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{name}</Link>
               </Link>
             </li>
           ))}

@@ -5,7 +5,7 @@ const Technology = () => {
   return (
     <div
       name="technology"
-      className="bg-gradient-to-b from-gray-700 to-gray-900 w-full h-screen pt-20 pb-20"
+      className="bg-gradient-to-b from-gray-900 to-gray-700 w-full h-screen pt-20 pb-20"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-gray-300">
         <div>

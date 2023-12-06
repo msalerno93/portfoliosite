@@ -13,11 +13,11 @@ import JavaScript from "../assets/TechnologyPhotos/javascript.png"
 import Node from "../assets/TechnologyPhotos/node.png"
 import Reactjs from "../assets/TechnologyPhotos/react.png"
 import Tailwind from "../assets/TechnologyPhotos/tailwind.png"
+import Resume from "./Resume.pdf"
 
 // NAVIGATION LINKS REACT SMOOTH SCROLL - USED IN NAVBAR //
 export const navLinks = [
   { id: 1, name: "Home", link: "home" },
-  { id: 2, name: "About", link: "about" },
   { id: 3, name: "Portfolio", link: "portfolio" },
   { id: 4, name: "Technology", link: "technology" },
   { id: 5, name: "Contact", link: "contact" },
@@ -60,7 +60,7 @@ export const socials = [
         Resume <BsFillPersonLinesFill size={35} />
       </>
     ),
-    href: "/resume.pdf",
+    href: Resume,
     style: "rounded-br-md",
     download: true,
   },
@@ -81,20 +81,20 @@ export const projects = [
   {
     id: 1,
     src: mechanic,
-    demo: "https://www.google.com",
-    code: "https://www.github.com"
+    demo: "https://mechanic-site.netlify.app/",
+    code: "https://github.com/msalerno93/mechanicSite"
   },
   {
     id: 3,
     src: NASA,
-    demo: "https://www.google.com",
-    code: "https://www.github.com"
+    demo: "https://www.github.com/msalerno93",
+    code: "https://github.com/msalerno93/NASAspace"
   },
   {
     id: 5,
     src: SocialMedia,
-    demo: "https://www.google.com",
-    code: "https://www.github.com"
+    demo: "https://www.github.com/msalerno93",
+    code: "https://github.com/msalerno93/fauxcialMedia"
   },
   {    id: 4,
     src: Pizzeria,
@@ -105,7 +105,7 @@ export const projects = [
     id: 2,
     src: Movies,
     demo: "https://movie-finder-ms.netlify.app/",
-    code: "https://www.github.com"
+    code: "https://github.com/msalerno93/MovieFinder"
   },
 
 ];
