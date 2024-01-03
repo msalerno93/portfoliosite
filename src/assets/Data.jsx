@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import mechanic from "../assets/ProjectPhotos/Mechanic.png";
+import Barbershop from "../assets/ProjectPhotos/Barbershop.png";
 import Movies from "../assets/ProjectPhotos/Movies.png";
 import NASA from "../assets/ProjectPhotos/NASA.png";
 import Pizzeria from "../assets/ProjectPhotos/Pizzeria.png";
@@ -80,9 +80,9 @@ export const about = [
 export const projects = [
   {
     id: 1,
-    src: mechanic,
-    demo: "https://mechanic-site.netlify.app/",
-    code: "https://github.com/msalerno93/mechanicSite"
+    src: Barbershop,
+    demo: "https://jimmysbarbershop.netlify.app/",
+    code: "https://github.com/msalerno93/BarberShop"
   },
   {
     id: 3,
